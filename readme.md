@@ -41,7 +41,9 @@ sudo su -c "gem install sass -v 3.4.22"
 ```
 
 Install and setup nginx
+
 Create /etc/nginx/.htpasswd in formar USERNAME:PASSWORD
+
 Edit pol/nginx/default.site-example in part location /static/ replace USERNAME
 ```
 sudo apt-get install nginx
